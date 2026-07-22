@@ -1,12 +1,14 @@
 # Uruchomienie w termux na telefonie
 
-clone the repo git clone https://github.com/SyntaxError-PC/Nitrogen
+### sklonujrepozytorium
 
-change the working directory to Nitrogen
+git clone https://github.com/SyntaxError-PC/Nitrogen
+
+### zmień katalog roboczy na  Nitrogen
 
 cd Nitrogen
 
-install requirements
+### wymagania instalacje 
 
 pip3 install -r requirements.txt
 
