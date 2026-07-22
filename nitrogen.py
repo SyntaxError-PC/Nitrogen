@@ -57,7 +57,7 @@ with open("Generatednitro.txt") as f:
         r = requests.get(url)
 
         if r.status_code == 200:
-            print("{Fore.RED}wow")
+            print("{Fore.GREEN}Poprawny link")
             print("[+]VALID CODE ┇ {} ".format(line.strip("\n")))
             break
         else:
@@ -65,4 +65,4 @@ with open("Generatednitro.txt") as f:
 
 os.remove("Generatednitro.txt")
 
-print(f"{Fore.LIGHTYELLOW_EX}\nbye bye :) please give me a star \n")
+print(f"{Fore.RED}\nbye bye :) please give me a star \n")
