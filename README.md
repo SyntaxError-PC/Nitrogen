@@ -1,4 +1,4 @@
-# Open the termux in Phone
+# Uruchomienie w termux na telefonie
 
 clone the repo
 git clone https://github.com/SyntaxError-PC/Nitrogen.git
