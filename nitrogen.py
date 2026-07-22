@@ -7,17 +7,17 @@ from colorama import Fore
 
 # Idea and help by stackoverflow
 
-print(f"{Fore.RED} ▐ ▄ ▪  ▄▄▄▄▄▄▄▄             ▄▄ • ▄▄▄ . ▐ ▄  ")
-print(f"{Fore.RED}•█▌▐███ •██  ▀▄ █·▪         ▐█ ▀ ▪▀▄.▀·•█▌▐█   {Fore.YELLOW} version    :1.1")
-print(f"{Fore.RED}▐█▐▐▌▐█· ▐█.▪▐▀▀▄  ▄█▀▄     ▄█ ▀█▄▐▀▀▪▄▐█▐▐▌   {Fore.YELLOW} status     :working")
-print(f"{Fore.RED}██▐█▌▐█▌ ▐█▌·▐█•█▌▐█▌.▐▌    ▐█▄▪▐█▐█▄▄▌██▐█▌   {Fore.YELLOW} maintaining:yes")
-print(f"{Fore.RED}▀▀ █▪▀▀▀ ▀▀▀ .▀  ▀ ▀█▄▀▪    ·▀▀▀▀  ▀▀▀ ▀▀ █▪   ")
+print(f"{Fore.BLUE} ▐ ▄ ▪  ▄▄▄▄▄▄▄▄             ▄▄ • ▄▄▄ . ▐ ▄  ")
+print(f"{Fore.BLUE}•█▌▐███ •██  ▀▄ █·▪         ▐█ ▀ ▪▀▄.▀·•█▌▐█   {Fore.WHITE} version    :1.1")
+print(f"{Fore.BLUE}▐█▐▐▌▐█· ▐█.▪▐▀▀▄  ▄█▀▄     ▄█ ▀█▄▐▀▀▪▄▐█▐▐▌   {Fore.WHITE} status     :working")
+print(f"{Fore.BLUE}██▐█▌▐█▌ ▐█▌·▐█•█▌▐█▌.▐▌    ▐█▄▪▐█▐█▄▄▌██▐█▌   {Fore.WHITE} maintaining:yes")
+print(f"{Fore.BLUE}▀▀ █▪▀▀▀ ▀▀▀ .▀  ▀ ▀█▄▀▪    ·▀▀▀▀  ▀▀▀ ▀▀ █▪   ")
 
 print(f"{Fore.CYAN}▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄")
 print(f"{Fore.CYAN}▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌")
 print(f"{Fore.CYAN}▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀")
 
-print(f"{Fore.GREEN}[!]github  - https://github.com/SyntaxError-PC/Nitrogen.git")
+print(f"{Fore.BLUE}[!]github  - https://github.com/SyntaxError-PC/Nitrogen.git")
 
 
 
@@ -32,7 +32,7 @@ for x in line_1:
     sys.stdout.flush()
     sleep(0.1)
 
-num = input(f'{Fore.MAGENTA}[?]How many nitro codes you want me to generate:')
+num = input(f'{Fore.MAGENTA}[?]Ile kodów nitro mam dla ciebie wygenerować:')
 
 f = open("Generatednitro.txt", "a+", encoding='utf-8')
 
@@ -46,7 +46,7 @@ for n in range(int(num)):
 
 f.close()
 
-print(f"{Fore.LIGHTYELLOW_EX}[>] Generated {num} nitro codes and saved \n[^]now going to check {num} nitro codes are valid are not! ")
+print(f"{Fore.RED}[>] Generated {num} nitro codes and saved \n[^]now going to check {num} nitro codes are valid are not! ")
 
 with open("Generatednitro.txt") as f:
     for line in f:
@@ -57,7 +57,7 @@ with open("Generatednitro.txt") as f:
         r = requests.get(url)
 
         if r.status_code == 200:
-            print("{Fore.GREEN}Poprawny link")
+            print("{Fore.BLUE}Poprawny link")
             print("[+]VALID CODE ┇ {} ".format(line.strip("\n")))
             break
         else:
@@ -65,4 +65,4 @@ with open("Generatednitro.txt") as f:
 
 os.remove("Generatednitro.txt")
 
-print(f"{Fore.RED}\nbye bye :) please give me a star \n")
+print(f"{Fore.CYAN}\nPa Pa Proszę daj mi gwiazdkę\n")
