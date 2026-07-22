@@ -1,6 +1,6 @@
 # Uruchomienie w termux na telefonie
 
-### sklonujrepozytorium
+### sklonuj repozytorium
 
 git clone https://github.com/SyntaxError-PC/Nitrogen
 
