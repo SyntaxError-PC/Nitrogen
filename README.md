@@ -1,7 +1,7 @@
 # Open the termux in Phone
 
 clone the repo
-git clone https://github.com/thelinuxuser-choice/Nitrogen
+git clone https://github.com/SyntaxError-PC/Nitrogen.git
 change the working directory to Nitrogen
 cd Nitrogen
 install requirements
